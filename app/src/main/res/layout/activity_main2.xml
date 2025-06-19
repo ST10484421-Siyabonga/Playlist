@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--https://pngtree.com/free-music-background-->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/musicimage"
+    tools:context=".MainActivity2">
+
+    <Button
+        android:id="@+id/addbtn"
+        android:layout_width="370dp"
+        android:layout_height="70dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
+        android:text="Add to playlist"
+        app:cornerRadius="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.627" />
+
+    <Button
+        android:id="@+id/ratebtn"
+        android:layout_width="370dp"
+        android:layout_height="70dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
+        android:text="Ratings"
+        app:cornerRadius="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.77" />
+
+    <Button
+        android:id="@+id/exitbtn"
+        android:layout_width="370dp"
+        android:layout_height="70dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
+        android:text="Exit"
+        app:cornerRadius="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.918" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="294dp"
+        android:layout_height="137dp"
+        android:text="1.Highest in the room,2. sdp intelude, 3.Narcos, 4.T-Shirt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.447"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="295dp"
+        android:layout_height="62dp"
+        android:text="Please enter the song title, th artist`s name and the ratings"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.076" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="295dp"
+        android:layout_height="62dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Songs title: "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.271" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
